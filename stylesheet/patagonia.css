@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    min-height: 800px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 2rem;
+    align-items: center;
+}
+.header .header__logo {
+   font-family: 'Aldrich', sans-serif;
+   width: 50%;
+   font-size: 2rem;
+}
+.header__nav {
+    display: flex;
+}
+.header ul {
+    list-style: none;
+    display: inline-flex;
+}
+.header a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-right: 2rem;
+    font-weight: 300;
+}
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 2rem;
+}
+.maincontainer__textbox {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+.maincontainer__text {
+    width: 50%;
+    font-size: 2rem;
+}
+.maincontainer__textbox p {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+.maincontainer__textbox h1 {
+    font-family: 'Poppins', sans-serif;
+}
+.maincontainer__image img{
+    width: 100%;
+    min-height: 486px;
+}
+@media screen and (max-width : 850px) {
+    .maincontainer {
+        width: 95%;
+    }
+    .header a {
+        font-size: 13px;
+        margin-right: 5px;
+    }
+    .container {
+        width: 90%;
+    }
+    .maincontainer__text {
+        margin-top: 5rem;
+        width: 90%;
+    }
+    .maincontainer__textbox h1 {
+        font-size: 3rem;
+    }
+    .maincontainer__image img{  
+        min-height: 512px;
+    }
+@media screen and (max-width : 320px) {
+    .header a {
+        margin-right: 3px;
+        font-size: 10px;
+    }
+    .container {
+        width: 95%;
+    }
+    .container h3 {
+        font-size: 20px;
+    }
+    .maincontainer__textbox h1 {
+        font-size: 2rem;
+    }
+    .maincontainer__image img {
+        max-height: 284px;
+    }
+  }  
+}
