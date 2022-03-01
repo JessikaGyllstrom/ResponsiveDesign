@@ -80,7 +80,7 @@ body {
     height: 100%;
 
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1200px) {
     .nav {
         width: 100%;
     } 
@@ -111,12 +111,12 @@ body {
     .maintext__iconbox img {
         visibility: hidden;
     }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 520px) {
     .nav__links {
-        width: 60%;
-     }
-     .maintextcontainer__text h1 {
+        width: 70%;
+    }
+    .maintextcontainer__text h1 {
          font-size: 50px;
-     }
-    }   
+    }
+}   
 }

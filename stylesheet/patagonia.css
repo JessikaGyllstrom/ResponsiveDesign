@@ -14,13 +14,13 @@ body {
     display: flex;
     justify-content: space-between;
     width: 60%;
-    margin-top: 2rem;
+    margin-top: 20px;
     align-items: center;
 }
 .header .header__logo {
    font-family: 'Aldrich', sans-serif;
    width: 50%;
-   font-size: 2rem;
+   font-size: 20px;
 }
 .header__nav {
     display: flex;
@@ -33,7 +33,7 @@ body {
     text-decoration: none;
     color: black;
     font-family: 'Source Sans Pro', sans-serif;
-    margin-right: 2rem;
+    margin-right: 20px;
     font-weight: 300;
 }
 .main {
@@ -45,27 +45,28 @@ body {
     display: flex;
     flex-direction: column;
     width: 60%;
-    margin-top: 2rem;
+    margin-top: 20px;
 }
 .maincontainer__textbox {
-    margin-top: 6rem;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 1rem;
+    padding: 10px;
 }
 .maincontainer__text {
-    width: 50%;
-    font-size: 2rem;
+    width: 60%;
+    font-size: 15px;
 }
 .maincontainer__textbox p {
     font-family: 'Source Sans Pro', sans-serif;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
 }
 .maincontainer__textbox h1 {
     font-family: 'Poppins', sans-serif;
+    font-size: 60px;
 }
 .maincontainer__image img{
     width: 100%;
@@ -83,7 +84,7 @@ body {
         width: 90%;
     }
     .maincontainer__text {
-        margin-top: 5rem;
+        margin-top: 40px;
         width: 90%;
     }
     .maincontainer__textbox h1 {
