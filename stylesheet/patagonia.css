@@ -72,6 +72,9 @@ body {
     width: 100%;
     min-height: 486px;
 }
+.header__links a:hover {
+    font-weight: 600;
+}   
 @media screen and (max-width : 850px) {
     .maincontainer {
         width: 95%;
